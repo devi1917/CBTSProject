@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing CBTS Apps">
+    <listeners>
+        <listener class-name="com.onx.qa.base.ListenerTest"></listener>
+    </listeners>
+    <test name="TC001_Amazon_EndToEndScenario">
+        <classes>
+            <class name="com.onx.qa.testcases.HomePageTCs"> </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
